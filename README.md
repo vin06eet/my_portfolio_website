@@ -1,2 +1,3 @@
 Link to my website...
-<href rel="https://vin06eet.github.io/my_portfolio_website/">Click Here</a>
+<br>
+<a href="https://vin06eet.github.io/my_portfolio_website/" target="_blank">Click Here
