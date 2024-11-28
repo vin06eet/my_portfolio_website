@@ -11,9 +11,9 @@
 <body class="bg-gray-900 text-gray-100 font-sans">
 
     <!-- Navigation Section -->
-    <section id="navigation" class="flex justify-between items-center p-5 bg-gray-800">
+    <section id="navigation" class="flex sm:justify-between justify-center p-5 bg-gray-800">
         <img src="me.png" class="w-36 h-36 rounded-full" alt="Profile">
-        <div class="flex space-x-3">
+        <div class="flex space-x-3 sm:block hidden">
             <a href="#home" class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded">Home</a>
             <a href="#about_me" class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded">About Me</a>
             <a href="#projects" class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded">Projects</a>
@@ -51,7 +51,7 @@
         <p class="text-gray-300">I'm a newbie in tech, very interested in learning new stuff. I like to explore the unexplored.</p>
         <h3 class="text-2xl font-bold mt-6 mb-4 text-white">Technologies and Tools</h3>
         <p class="text-gray-300">I make use of these tools to learn new stuff.</p>
-        <div class="overflow-hidden border-2 border-none rounded-lg p-2">
+        <div class="overflow-hidden border-2 border-none rounded-lg p-2 sm:block hidden">
             <div class="flex gap-4 animate-move">
                 <div class="tech-box bg-green-600 text-black font-bold text-3xl p-4 rounded-tl-full rounded-br-full w-56 h-32 flex items-center justify-center">C</div>
                 <div class="tech-box bg-green-500 text-black font-bold text-3xl p-4 rounded-tr-full rounded-bl-full w-56 h-32 flex items-center justify-center">C++</div>
@@ -60,6 +60,14 @@
                 <div class="tech-box bg-green-500 text-black font-bold text-3xl p-4 rounded-tl-full rounded-br-full w-56 h-32 flex items-center justify-center">CSS</div>
                 <div class="tech-box bg-green-600 text-black font-bold text-3xl p-4 rounded-tr-full rounded-bl-full w-56 h-32 flex items-center justify-center">Verilog</div>
             </div>
+        </div>
+        <div class="sm:hidden block">
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Verilog</li>
         </div>
     </section>
     
