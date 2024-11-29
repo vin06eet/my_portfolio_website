@@ -34,3 +34,12 @@ function showMessage(message, type) {
     responseMessage.textContent = message;
     responseMessage.className = `mt-4 text-sm ${type === 'success' ? 'text-green-500' : 'text-red-500'}`;
 }
+
+<script>
+    const button = document.getElementById('menu-button');
+    const menu = document.querySelector('.absolute');
+
+    button.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+    });
+</script>

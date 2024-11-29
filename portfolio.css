@@ -2,17 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
-@keyframes enterExit {
+@keyframes scroll {
   0% {
       transform: translateX(100%); 
-  }
-  50% {
-      transform: translateX(0); 
   }
   100% {
       transform: translateX(-100%); 
   }
 }
 .animate-move {
-  animation: enterExit 10s ease-in-out infinite;
+  animation: scroll 12s linear infinite;
 }
